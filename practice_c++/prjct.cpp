@@ -1,10 +1,10 @@
-#include <iostream> // подключаем библиотеку iostream(ввод и вывод информации)
+#include <iostream>
 #include <ctime>
 #include <vector>
 #include <fstream>
 #include <string>
 #include <cstdlib>
-using namespace std; // подключаем обьекты из пространства имен std
+using namespace std;
 
 #define ORDINARY_SIZE 33
 bool guessANumberGame(int* deposit);
@@ -21,7 +21,7 @@ void depositCheck(int* deposit);
 bool validateString(string& name);
 int main() {
 	system("color F2");
-	setlocale(LC_ALL, "Rus"); // подкл функцию для распознавания русских символов
+	setlocale(LC_ALL, "Rus");
 	srand(time(NULL));
 	const int MAX_SIZE_OF_NAME = 50;
 	string name;
